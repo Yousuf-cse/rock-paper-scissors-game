@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stone-Paper-Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Stone-Paper-Scissors Game</h1>
+  <br>
+  <div>
+  <button class="game-button" onclick="
+  let computerChoice = generateComputerChoice();
+  let resultMsg = getResult('stone', computerChoice);
+  showResult('stone', computerChoice, resultMsg);
+  ">
+    <img src="rockk.png" alt="Stone Image" class="button-image">  
+  </button>
+
+  <button class="game-button" onclick="
+    computerChoice = generateComputerChoice();
+    resultMsg = getResult('paper', computerChoice);
+    showResult('paper', computerChoice, resultMsg);
+  ">
+    <img src="paperr.png" alt="paper Image" class="button-image">  
+  </button>
+
+  <button class="game-button" onclick="
+    computerChoice = generateComputerChoice();
+    resultMsg = getResult('scissor', computerChoice);
+    showResult('scissor', computerChoice, resultMsg);
+  ">
+    <img src="scissorss.png" alt="Scissor Image" class="button-image">
+  </button>
+  </div>
+  <h2>Game Result</h2> 
+  <h3 id="user-move"></h3>
+  <h3 id="computer-move"></h3>
+  <h3 id="result"></h3>
+  <h3 id="score"></h3>
+
+  <button id="new-game" onclick="localStorage.clear()
+      resetScore();
+  ">New Game</button>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script> -->
+  
+  <script src="main.js"></script>
+</body>
+</html>

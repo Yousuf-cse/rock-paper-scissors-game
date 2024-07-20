@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-image: url(background13.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(250, 215, 59);
+}
+
+.game-button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  margin: 10px;
+  background-color: rgb(255, 224, 224);
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#score{
+  position: absolute;top: 0px;right: 0px;left: 80%;
+}
+#new-game{
+  position: absolute;top: 5px;left: 0px;right: 90%;
+}
