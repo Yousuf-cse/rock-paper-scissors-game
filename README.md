@@ -24,7 +24,7 @@ This project was created to practice DOM manipulation, event handling, and basic
 ---
 
 ## 📷 Screenshots  
-![Game Screenshot](rock-paper-scissorsGame/game.png)
+![Game Screenshot](https://res.cloudinary.com/dxkje9whm/image/upload/v1759418483/game_gigyud.png)
 
 ---
 
